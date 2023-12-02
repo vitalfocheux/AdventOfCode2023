@@ -4,7 +4,7 @@ public class jour3 {
 
     static void part1(){
 
-        List<String> parser = AOC.parser("/txt/jour2.txt", "\n");
+        List<String> parser = AOC.parser("/txt/jour3.txt", "\n");
 
         for(String str : parser){
 
@@ -16,7 +16,7 @@ public class jour3 {
 
     static void part2(){
 
-        List<String> parser = AOC.parser("/txt/jour2.txt", "\n");
+        List<String> parser = AOC.parser("/txt/jour3.txt", "\n");
 
         for(String str : parser){
             
