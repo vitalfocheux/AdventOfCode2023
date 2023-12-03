@@ -6,8 +6,8 @@ Il est effectué en Java.
 ## Calendrier
 
 Jour 1    ⭐⭐  
-Jour 2    ☆ ☆  
-Jour 3    ☆ ☆  
+Jour 2    ⭐⭐  
+Jour 3    ⭐⭐  
 Jour 4    ☆ ☆  
 Jour 5    ☆ ☆  
 Jour 6    ☆ ☆  
