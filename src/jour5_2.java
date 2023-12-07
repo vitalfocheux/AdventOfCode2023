@@ -14,8 +14,7 @@ public class jour5_2 {
     public static void main(String[] args) {
 
 
-        try {
-            BufferedReader br = new BufferedReader(new FileReader(System.getProperty("user.dir") + "/src/txt/jour5.txt"));
+        try (BufferedReader br = new BufferedReader(new FileReader(System.getProperty("user.dir") + "/src/txt/jour5.txt"))){
 
             Map<String, Converter> converters = new HashMap<>();
             List<Long> seeds = new ArrayList<>();

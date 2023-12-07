@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.Map.Entry;
 
 public class jour6 {
 
@@ -43,11 +42,8 @@ public class jour6 {
         List<String> dist = Arrays.asList(parser.get(1).replace("Distance:", "").trim().split("   "));
 
         Long res = (long)1;
-        long p = Long.MAX_VALUE;
-        long g = Long.MIN_VALUE;
 
         for(int i = 0; i < temp.size(); ++i){
-            Long temp_res = (long) 0;
             Long time = Long.parseLong(temp.get(i).trim());
             Long d = Long.parseLong(dist.get(i).trim());
             for(Long j = (long) 0; j <= time; ++j){
